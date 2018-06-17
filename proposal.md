@@ -26,7 +26,7 @@ Controls will initially be displayed on screen: "Spacebar to start" and then hid
 
 Below the canvas, players can choose from preloaded music that the visualizer will respond to, or they can click on the microphone button to play their own audio.
 
-![wireframe](wireframe.png)
+![wireframe](flappy-bars-wireframe.png)
 
 ### Architecture and Technologies
 
