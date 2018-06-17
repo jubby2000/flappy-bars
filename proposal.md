@@ -27,7 +27,6 @@ Controls will initially be displayed on screen: "Spacebar to start" and then hid
 Below the canvas, players can choose from preloaded music that the visualizer will respond to, or they can click on the microphone button to play their own audio.
 
 ![wireframe](flappy-bars-wireframe.png)
-
 ### Architecture and Technologies
 
 This project will be implemented with the following technologies:
@@ -59,7 +58,7 @@ In addition to the webpack entry file, there will be four scripts involved in th
 - [ ] Not sure of the details here, maybe webpack.config, entry file things?
 - [ ] Create the beginnings of the script files above?
 
-**Day 1**: Learn and implement the `Web Audio` API.
+**Day 2**: Learn and implement the `Web Audio` API.
 
 - [ ] Be able to tie audio assets to canvas visualization
 - [ ] Play, stop and restart audio
