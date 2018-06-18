@@ -50,15 +50,15 @@ In addition to the webpack entry file, there will be four scripts involved in th
 
 **Over the weekend**:
 
-- [ ] Take the WebAudioAPI tutorial
-- [ ] Be able to load static assets and play them back
+- [x] Look into WebAudioAPI/p5
+- [x] Be able to load static assets and play them back
 
 **Day 1**: Configure the project
 
 - [ ] Not sure of the details here, maybe webpack.config, entry file things?
 - [ ] Create the beginnings of the script files above?
 
-**Day 2**: Learn and implement the `Web Audio` API.
+**Day 2**: Learn and implement the `Web Audio` API via p5
 
 - [ ] Be able to tie audio assets to canvas visualization
 - [ ] Play, stop and restart audio
