@@ -25,7 +25,7 @@
 #analyser-render {
   background: url('assets/flappy-bird-background.png') repeat 0 0;
   animation: slide 10s linear infinite;
-  image-rendering: optimizeQuality;
+  image-rendering: pixelated;
 }
 
 /* .wings-up {
