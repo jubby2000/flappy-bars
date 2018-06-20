@@ -1,3 +1,59 @@
-canvas {
-  border: 1px solid black;
+#canvas-container {
+  width: 100%;
+  text-align: center;
 }
+
+#mp3_player {
+  width: 50%;
+  height: 60px;
+  background: #000;
+  padding: 5px;
+  margin: 50px auto;
+}
+
+#mp3_player > div > audio {
+  width: 50%;
+  background: #000;
+  float: left;
+}
+
+@keyframes slide {
+    from { background-position: 535px 0; }
+    to { background-position: -1000px 0; }
+}
+
+#analyser-render {
+  background: url('assets/flappy-bird-background.png') repeat 0 0;
+  animation: slide 10s linear infinite;
+  image-rendering: optimizeQuality;
+}
+
+/* .wings-up {
+  background: url('assets/sprites.png') no-repeat -3px -491px;
+	width: 17px;
+	height: 12px;
+}
+
+.wings-mid {
+  background: url('assets/sprites.png') no-repeat -31px -491px;
+	width: 17px;
+	height: 12px;
+}
+
+.wings-down {
+  background: url('assets/sprites.png') no-repeat -59px -491px;
+	width: 17px;
+	height: 12px;
+}
+
+.get-ready {
+  background: url('assets/sprites.png') no-repeat -295px -59px;
+	width: 92px;
+	height: 25px;
+}
+
+.game-over {
+  background: url('assets/sprites.png') no-repeat -395px -59px;
+	width: 96px;
+	height: 21px;
+} */

@@ -9,8 +9,12 @@
   <script type="application/javascript" src="lib/bundle.js"></script>
 </head>
 <body>
-  <canvas id="content" width="300" height="300"></canvas>
-  <button class="mute">Mute toggle</button>
-  <script src="./lib/visualizer.js"></script>
+  <div id="canvas-container">
+    <div id="mp3-player"></div>
+      <div id="audio-box"></div>
+      <canvas id="analyser-render" width="1000" height="600"></canvas>
+    </div>
+  </div>
+  <!-- <script src="lib/visualizer.js"></script> -->
 </body>
 </html>
