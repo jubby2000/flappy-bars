@@ -1,3 +1,12 @@
+img {
+  display: block;
+  margin: 15px auto;
+  /* height: 200%; */
+  width: 25%;
+  image-rendering: pixelated;
+  
+}
+
 #canvas-container {
   width: 100%;
   text-align: center;
