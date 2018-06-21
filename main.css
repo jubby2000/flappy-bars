@@ -49,7 +49,7 @@ img {
 
 @font-face {
   font-family: FlappyFont;
-  src: url('assets/04B_19__.ttf')
+  src: url('./assets/04B_19__.TTF')
 }
 
 .score, .high-score {
