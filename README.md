@@ -1,10 +1,9 @@
 # Flappy Bars
 
-[Live Demo][githubpages]
+[Live Demo](https://jubby2000.github.io/flappy-bars/)
 
-![Demo](app/assets/flappy-bars-demo.gif)
+![Demo](assets/flappy-bars-demo.gif)
 
-[githubpages]: https://jubby2000.github.io/flappy-bars/
 Flappy Bars is a twist on the classic challenging game Flappy Bird. It plays music and visualizes that music with colored bars. When those bars appear, they serve as the bounds of how high or low the bird can fly. It maintains the challenging nature of the original game - beat my high score of 64!
 
 This project was designed and built in a week, with additional features to come.
