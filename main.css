@@ -6,12 +6,25 @@
   margin: 20px 150px;
 }
 
-img {
+.header img {
   display: block;
   margin: 0 20px; 
   width: 35%;
   height: 35%;
   image-rendering: pixelated;
+}
+
+a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a img {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #canvas-container {
