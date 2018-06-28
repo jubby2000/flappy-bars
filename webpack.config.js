@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   context: __dirname,
-  entry: "./lib/game.js",
+  entry: "./lib/flappy-bars.js",
   output: {
     path: path.join(__dirname),
     filename: "./lib/bundle.js"
