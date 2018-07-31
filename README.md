@@ -8,6 +8,10 @@ Flappy Bars is a twist on the classic challenging game Flappy Bird. It plays mus
 
 This project was designed and built in a week, with additional features to come.
 
+## Technologies
+
+JavaScript ES6 was used for this project: Canvas, Web Audio API, and eventually decided on no third-party libraries.
+
 ## Current Features
   * Audio visualizer created using the Web Audio API
   * Users can start and restart the game simple with the spacebar, no other controls complications
@@ -57,10 +61,6 @@ Detecting collisions for multiple moving bars against another moving object was 
 ## Project Design
 
 Infinotes was designed to be simple in terms of visuals, instructions, and gameplay. I wanted to maintain a nostalgic feel, with pixelated graphics, and also maintain the challenge of the original game.
-
-## Technologies
-
-JavaScript ES6 was used for this project: Canvas, Web Audio API, and eventually decided on no third-party libraries.
 
 ### Additional Resources
   * [Wireframes and Proposal][wireframes]
