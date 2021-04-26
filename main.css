@@ -8,7 +8,7 @@
 
 .header img {
   display: block;
-  margin: 0 20px; 
+  margin: 0 20px;
   width: 35%;
   height: 35%;
   image-rendering: pixelated;
@@ -33,27 +33,31 @@ a img {
 }
 
 @keyframes slide {
-    from { background-position: 535px 0; }
-    to { background-position: -1000px 0; }
+  from {
+    background-position: 535px 0;
+  }
+  to {
+    background-position: -1000px 0;
+  }
 }
 
 #analyser-render {
-  background: url('assets/flappy-bird-background.png') repeat 0 0;
+  background: url("assets/flappy-bird-background.png") repeat 0 0;
   animation: slide 10s linear infinite;
   image-rendering: pixelated;
 }
 
 @font-face {
   font-family: FlappyFont;
-  src: url('./assets/04B_19__.TTF')
+  src: url("./assets/04B_19__.TTF");
 }
 
-.score, .high-score {
-  font-family: 'FlappyFont';
+.score,
+.high-score {
+  font-family: "FlappyFont";
   font-size: 60px;
   width: 60px;
   color: black;
   text-align: center;
   margin: 0 40px;
-  
 }
