@@ -5,9 +5,8 @@ module.exports = {
   mode: 'development',
   entry: "./lib/flappy-bars.js",
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: "./bundle.js",
-    publicPath: 'dist'
+    path: path.join(__dirname),
+    filename: "./bundle.js"
   },
   devServer: {
     static: [
