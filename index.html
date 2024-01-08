@@ -16,7 +16,7 @@
 
     gtag('config', 'UA-121561015-1');
   </script>
-  <script type="application/javascript" src="lib/bundle.js"></script>
+  <script type="application/javascript" src="/dist/bundle.js"></script>
 </head>
 <body>
   <div class="header">
@@ -32,6 +32,14 @@
     <a href="https://open.spotify.com/artist/6xDRBrApnv0HI3o6nNl1X3" target="_blank">
       <img src="assets/spotify-8bit.png" alt="spotify-logo">
     </a>
+  </div>
+  <div class="track-select-container">
+    <label for="trackSelect">Select track:</label>
+    <select name="trackSelect" id="trackSelect">
+      <option value="pbr">Pennybirdrabbit - treehouse</option>
+      <option value="bsd">Bensound - Dubstep</option>
+      <option value="bsm">Bensound - Moose</option>
+    </select>
   </div>
   <div id="canvas-container">
     <div id="mp3-player"></div>

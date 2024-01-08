@@ -2,11 +2,24 @@ const path = require("path");
 
 module.exports = {
   context: __dirname,
+  mode: 'development',
   entry: "./lib/flappy-bars.js",
   output: {
-    path: path.join(__dirname),
-    filename: "./lib/bundle.js"
+    path: path.join(__dirname, 'dist'),
+    filename: "./dist/bundle.js",
+    publicPath: ''
   },
+  devServer: {
+    static: [
+      {
+        directory: path.join(__dirname, ''), // Root directory
+      },
+      {
+        directory: path.join(__dirname, 'assets'), // Assets folder
+      },
+    ],
+},
+
   module: {
     rules: [
       {
@@ -14,8 +27,8 @@ module.exports = {
         exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',
-          query: {
-            presets: ['es2015']
+          options: {
+            presets: ['@babel/preset-env']
           }
         }
       }

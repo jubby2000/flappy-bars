@@ -27,9 +27,26 @@ a img {
   min-height: 100%;
 }
 
+.track-select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label[for='trackSelect'] {
+  font-family: FlappyFont;
+  user-select: none;
+}
+
+#trackSelect {
+  margin-left: 5px;
+  user-select: none;
+}
+
 #canvas-container {
   width: 100%;
   text-align: center;
+  margin-top: 20px;
 }
 
 @keyframes slide {
