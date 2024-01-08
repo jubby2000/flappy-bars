@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/jubby2000/flappy-bars/issues"
   },
-  "homepage": "https://github.com/jubby2000/flappy-bars#readme",
+  "homepage": "https://jubby2000.github.io/flappy-bars/",
   "dependencies": {
     "webpack": "5.89.0"
   },
